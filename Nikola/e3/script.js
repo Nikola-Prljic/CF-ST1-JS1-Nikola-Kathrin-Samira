@@ -1,3 +1,5 @@
 var hi = "Hi my name is ";
-var y = "<your name>";
-console.log (hi+ y);
+var y = "Nik ";
+var age= "25";
+document.write (hi+ y);
+
