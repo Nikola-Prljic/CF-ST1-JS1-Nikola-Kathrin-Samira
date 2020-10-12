@@ -4,4 +4,26 @@ let two = `Hana dul sae daa me want bananaaa! Ti aamoo! Hana dul sae jeje gelato
 
 let three = `Ti aamoo! para tú jeje poopayee butt potatoooo belloo! Potatoooo ti aamoo! Baboiii. Me want bananaaa! gelatooo potatoooo wiiiii wiiiii baboiii hahaha ti aamoo! Aaaaaah gelatooo tatata bala tu. Ti aamoo! chasy para tú wiiiii potatoooo uuuhhh. Ti aamoo! potatoooo belloo! Bananaaaa hana dul sae potatoooo poopayee bananaaaa para tú aaaaaah. Tank yuuu! tulaliloo chasy pepete po kass baboiii aaaaaah belloo! Underweaaar.`;
 
-document.querySelector(".one").style.backgroundColor = "blue";
+// change paragraph text and colors
+function content() {
+    document.getElementById("three").innerHTML = one;
+    document.getElementById("three").style.color = "blue";
+    document.getElementById("three").style.backgroundColor = "yellow";
+}
+
+function contentTwo() {
+    document.getElementById("five").innerHTML = two;
+    document.getElementById("five").style.color = "blue";
+    document.getElementById("five").style.backgroundColor = "yellow";
+}
+
+function contentThree() {
+    document.getElementById("six").innerHTML = three;
+    document.getElementById("six").style.color = "blue";
+    document.getElementById("six").style.backgroundColor = "yellow";
+}
+
+// title colors ant font
+function colorsAndFont() {
+    document.getElementsByTagName("H3")[0].setAttribute("class", "colors");
+}
