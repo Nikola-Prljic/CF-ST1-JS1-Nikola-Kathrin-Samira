@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            background-color: blue;
+            color: white;
+        }
+        .container {
+            background-color: yellow;
+            color:blue ;
+        }
+
+    </style>
+</head>
+<body>
+    <h3></h3>
+    <div class="container">
+        <p class="content1"></p>
+        <p class="content2"></p>
+        <p class="content3"></p>
+    </div>
+    <script>
+        var x = document.getElementsByClassName("content1");
+        x[0].innerHTML = "some text here";
+        var y = document.getElementsByClassName("content2");
+        y[0].innerHTML = "some text here";
+        var z = document.getElementsByClassName("content3");
+        z[0].innerHTML = "some text here";
+        var title = document.getElementsByTagName("h3");
+        title[0].innerHTML = "some Title here";
+        console.log(x)
+        
+    </script>
+</body>
+</html>
